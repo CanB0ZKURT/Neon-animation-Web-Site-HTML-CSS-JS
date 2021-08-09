@@ -1,0 +1,358 @@
+/* Colors used on site */
+
+#orange{color: #FF8000;}
+#black{color: #1D1D1D}
+#white{color: #F6F6F6;}
+#purple{color: #7700E7;}
+#yellow{color: #FFCE6F;}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1D1D1D;
+    background-image: url(https://i.hizliresim.com/yje2ti4.png);
+}
+
+/* "Anasayfa" button settings" */
+.ahp{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 1px;
+    left: 1040px;
+    text-decoration: none;
+}
+
+
+.ahp::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp:hover::before{
+    width: 100%;
+}
+
+/* "Hakkımda" button settings */
+
+.ahp2{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: block;
+    position: absolute;
+    left: 1205px;
+    text-decoration: none;
+}
+
+.ahp2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp2:hover::before{
+    width: 100%;
+}
+
+/* "Projelerim" button settings */
+
+.ahp3{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: block;
+    position: absolute;
+    left: 1379px;
+    text-decoration: none;
+}
+
+.ahp3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp3:hover::before{
+    width: 100%;
+}
+
+.ahp4{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 1px;
+    left: 1550px;
+    text-decoration: none;
+}
+
+
+.ahp4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp4:hover::before{
+    width: 100%;
+}
+
+/**/
+
+/* İcon Settings */
+.icon a i{
+    margin-right: 10px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+/* Scroll Bar Settings */
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FF8000;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #333333;
+}
+
+#footer{
+    background-color: #000000;
+    color: #F6F6F6;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    position: absolute;
+    bottom: -580px;
+}
+
+#coprything{
+    color: #FF8000;
+}
+
+#i-am{
+    color: #F6F6F6;
+    font-size: 30px;
+    position: relative;
+    left: 280px;
+    top: 160px;
+}
+
+#i{
+    color: #FF8000;
+}
+
+#aciklama{
+    color: #F6F6F6;
+    font-size: 28px;
+    position: relative;
+    left: 280px;
+    top: 200px;
+}
+
+.renk{
+    color: #FF8000;
+}
+
+#kekw{
+    color: #FF8000;
+    font-size: 20px;
+    position: relative;
+    left: 610px;
+    top: 240px;
+}
+
+#canb{
+    color: #FF8000;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    top: -70px;
+}
+
+#calisma2{
+    position: relative;
+    top: 32px;
+    left: 1050px;
+    width: auto;
+    height: 350px;
+}
+
+.kisim2{
+    width: 1914.4px;
+    height: 772px;
+    background: #FF8000;
+    position: relative;
+    top: 180px;
+    opacity: 0.1;
+}
+
+/* Kullandıklarım - About me */
+
+.kullandiklarim{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+}
+
+.box{
+    border: solid 2px #FF8000;
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    margin-right: 28px;
+    transition: 0.5s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    background: #FF8000;
+}
+
+#html5{
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: 8px;
+}
+
+#css3{
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: 8px;
+}
+
+#js{
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: 8px;
+}
+
+#php{
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: 8px;
+}
+
+/**/
+
+#de{
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 38px;
+    position: relative;
+    bottom: 475px;
+    left: 140px;
+}    
+
+#de2{
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 38px;
+    position: relative;
+    bottom: 135px;
+    left: 140px;
+} 
+
+.kullandiklarim2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 230px;
+    left: 850px;
+}
+
+.container{
+    width: 1673px;
+    height: 1367px;
+}
+
+.box{
+    border: solid 2px #FF8000;
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    margin-right: 28px;
+    transition: 0.5s;
+    position: relative;
+    left: 135px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    background: #FF8000;
+}
+
+#git-hub{
+    width: auto;
+    height: 120px;
+    position: relative;
+    top: 8px;
+}
+
+.box2{
+    border: solid 2px #FF8000;
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    margin-right: 28px;
+    transition: 0.5s;
+    position: relative;
+    left: 880px;
+}
+
+.box2:hover{
+    transform: scale(1.1);
+    background: #FF8000;
+}

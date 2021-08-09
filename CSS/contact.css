@@ -1,0 +1,298 @@
+/* Colors used on site */
+
+#orange{color: #FF8000;}
+#black{color: #1D1D1D}
+#white{color: #F6F6F6;}
+#purple{color: #7700E7;}
+#yellow{color: #FFCE6F;}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1D1D1D;
+    background-image: url(https://i.hizliresim.com/yje2ti4.png);
+}
+
+.container{
+    width: 100%;
+    height: 775px;
+}
+
+/* "Anasayfa" button settings" */
+.ahp{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 1px;
+    left: 1040px;
+    text-decoration: none;
+}
+
+
+.ahp::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp:hover::before{
+    width: 100%;
+}
+
+/* "Hakkımda" button settings */
+
+.ahp2{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: block;
+    position: absolute;
+    left: 1205px;
+    text-decoration: none;
+}
+
+.ahp2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp2:hover::before{
+    width: 100%;
+}
+
+/* "Projelerim" button settings */
+
+.ahp3{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: block;
+    position: absolute;
+    left: 1379px;
+    text-decoration: none;
+}
+
+.ahp3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp3:hover::before{
+    width: 100%;
+}
+
+.ahp4{
+    font-size: 18px;
+    line-height: 60px;
+    color: #F6F6F6;
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 1px;
+    left: 1550px;
+    text-decoration: none;
+}
+
+
+.ahp4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF8000;
+    transition: 0.2s ease-out;
+}
+
+.ahp4:hover::before{
+    width: 100%;
+}
+
+/**/
+
+/* İcon Settings */
+.icon a i{
+    margin-right: 10px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+/* Scroll Bar Settings */
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FF8000;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #333333;
+}
+
+#footer{
+    background-color: #000000;
+    color: #F6F6F6;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+    top: 118px;
+}
+
+#coprything{
+    color: #FF8000;
+}
+
+.part2{
+    background-color: #FF8000;
+    opacity: 0.1;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 115px;
+}
+
+/* Form Settings */
+
+#Ad-soyad{
+    height: 45px;
+    width: 330px;
+    border-radius: 15px;
+    border: solid 1px #fff;
+    position: relative;
+    top: -430px;
+    left: 720px;
+    transition: 0.2s;
+}
+
+#Ad-soyad::placeholder{
+    font-size: 16px;
+    position: relative;
+    left: -5px;
+}
+
+#Ad-soyad:hover{
+    transform: scale(1.1);
+}
+
+#Tel-no{
+    height: 45px;
+    width: 330px;
+    border-radius: 15px;
+    border: solid 1px #fff;
+    position: relative;
+    top: -370px;
+    left: 386px;
+    transition: 0.2s;
+}
+
+#Tel-no::placeholder{
+    font-size: 16px;
+    position: relative;
+    left: -5px;
+}
+
+#Tel-no:hover{
+    transform: scale(1.1);
+}
+
+#E-mail{
+    height: 45px;
+    width: 330px;
+    border-radius: 15px;
+    border: solid 1px #fff;
+    position: relative;
+    top: -310px;
+    left: 52px;
+    transition: 0.2s;
+}
+
+#E-mail::placeholder{
+    font-size: 16px;
+    position: relative;
+    left: -5px;
+}
+
+#E-mail:hover{
+    transform: scale(1.1);
+}
+
+#message{
+    border-radius: 15px;
+    position: relative;
+    top: -294.5px;
+    left: -10px;
+    width: 330px;
+    resize: none;
+    overflow: hidden;
+    transition: 0.2s;   
+}
+
+#message::placeholder{
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#message:hover{
+    transform: scale(0.9);
+}
+
+#submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    padding-right: 12px;
+    font-size: 16px;
+    position: relative;
+    left: -283px;
+    top: -230px;
+    border: solid 0px #fff;
+
+}
+
+.form{
+    position: relative;
+    left: -60px;
+}
+
+input {
+padding-left: 15px;
+}
+

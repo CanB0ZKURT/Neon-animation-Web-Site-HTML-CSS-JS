@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1D1D1D;
+    background-image: url(https://i.hizliresim.com/yje2ti4.png);
+}
+
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 50px;
+}
+  
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+#customers tr{
+    background-color: #ddd;
+}
+  
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #575757;
+    color: #FFCE6F;
+}
